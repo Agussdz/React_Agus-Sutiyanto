@@ -6,7 +6,7 @@
 
 ## Git
 
-- Git Merupakan salah satu version control system yang paling populer dan banyak digunakan. Git bersifat distributed, memungkinkan developer untuk mengembangkan projek secara bersama-sama,dengan Git developer memiliki salinan penuh dari seluruh riwayat proyek.
+Git Merupakan salah satu version control system yang paling populer dan banyak digunakan. Git bersifat distributed, memungkinkan developer untuk mengembangkan projek secara bersama-sama,dengan Git developer memiliki salinan penuh dari seluruh riwayat proyek.
 
 ## Github
 
