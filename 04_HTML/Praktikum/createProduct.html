@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soal Prioritas 1 - Agus Sutiyanto</title>
+  </head>
+  <body>
+    <!-- Title -->
+    <h1>Create Product</h1>
+    <h2>Detail Product</h2>
+    <!-- Form -->
+    <form action="#" method="POST">
+      <!-- Product Name -->
+      <label for="Product-name"> Product name : </label><br />
+      <input
+        type="text"
+        size="25"
+        id="Product-name"
+        name="Product-name"
+        minlength="6"
+        maxlength="50"
+        required
+      /><br /><br />
+
+      <!-- Product Category -->
+      <label for="Product-Category"> Product Category : </label><br />
+      <select name="Product-Category" id="Product-Category" required>
+        <option value="" disabled selected></option>
+        <option value="Category1">ProductCat1</option>
+        <option value="Category2">ProductCat2</option></select
+      ><br /><br />
+
+      <!-- Product Freshness -->
+      <label for="Product-freshness">Product Freshness :</label> <br />
+      <input
+        type="radio"
+        id="Brand-new"
+        name="Product-freshness"
+        value="brand-new"
+        required
+      />
+      <label for="Brand-new"> Brand New </label><br />
+      <input
+        type="radio"
+        id="Second-hand"
+        name="Product-freshness"
+        value="second-hand"
+      />
+      <label for="Second-hand"> Second Hand </label><br />
+      <input
+        type="radio"
+        id="Refurbished"
+        name="Product-freshness"
+        value="refurbished"
+      />
+      <label for="Refurbished"> Refurbished </label><br /><br />
+
+      <!-- Image Upload -->
+      <label for="Image-product"> Image of Product</label>
+      <input
+        type="file"
+        id="Image-product"
+        name="Image-product"
+        required
+      /><br />
+
+      <!-- Additional Description -->
+      <label for="Additional-desc"> Additional Description</label><br />
+      <textarea
+        name="Additionaldesc"
+        id="Additional-desc"
+        rows="8"
+        cols="37"
+        required
+      ></textarea>
+      <br />
+
+      <!-- Product Price -->
+      <label for="Product-price">Product Price :</label><br />
+      <input
+        type="number"
+        id="Product-price"
+        name="Product-price"
+        placeholder="   $100"
+        size="4"
+        required
+      />
+      <br /><br />
+
+      <!-- Button Submit -->
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
