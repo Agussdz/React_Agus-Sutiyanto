@@ -34,7 +34,8 @@ Ada tiga cara untuk menambahkan CSS ke dalam dokumen HTML:
 2. CSS Grouping
    CSS Grouping digunakan untuk menyeleksi beberapa selector dalam satu deklarasi style.
 
-```h1, h2, h3 {
+```
+    h1, h2, h3 {
     color: blue;
     font-family: Arial, sans-serif;
 }
