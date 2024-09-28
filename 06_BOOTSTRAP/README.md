@@ -19,6 +19,6 @@ Bootstrap menggunakan **sistem grid 12 kolom** untuk membantu membuat layout yan
 
 Bootstrap juga memiliki class utilitas yang bisa digunakan untuk mengatur layout dengan cepat, seperti margin, padding, teks, dan positioning. contoh penggunaan Utility pada Bootstrap
 
-```<div class="text-center p-5 bg-light">Teks berada di tengah dengan padding</div>
-
+```html
+<div class="text-center p-5 bg-light">Teks berada di tengah dengan padding</div>
 ```
