@@ -1,4 +1,4 @@
-# Ringkasan React Fundamental
+# Summary React Fundamental
 
 ## JSX dan React Component
 
