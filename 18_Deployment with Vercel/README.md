@@ -1,8 +1,8 @@
 # Summary Deployment With Vercel
 
-Link Domain Vercel Praktikum : `https://tes-deploy-react-red.vercel.app/`
+Link Domain Vercel Praktikum : https://tes-deploy-react-red.vercel.app/
 
-Link Repository Praktikum : `https://github.com/Agussdz/Tes-Deploy-React`
+Link Repository Praktikum : https://github.com/Agussdz/Tes-Deploy-React
 
 ## Pengertian Vercel
 
