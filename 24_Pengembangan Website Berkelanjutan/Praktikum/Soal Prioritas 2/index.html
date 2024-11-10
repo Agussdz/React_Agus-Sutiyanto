@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eco-Friendly Web Page</title>
+    <style>
+      /* Menggunakan warna gelap untuk mengurangi konsumsi energi */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #001b10;
+        color: #e0e0e0; /* Warna teks yang lebih terang agar kontras dengan background yang gelap */
+        margin: 0;
+        padding: 0;
+      }
+
+      nav,
+      footer {
+        background-color: #003328; /* Warna gelap untuk header dan footer */
+        padding: 20px;
+        text-align: center;
+      }
+
+      main {
+        padding: 20px 0 20px 20px;
+        margin: 0px;
+        background: #001b10; /* Warna gelap untuk konten utama */
+      }
+
+      /* Mengatur posisi relatif pada container gambar */
+      .image-container {
+        position: relative;
+        width: 100%;
+        height: auto;
+      }
+
+      /* Gambar latar belakang yang dioptimalkan */
+      .low-res-background {
+        width: 100%;
+        height: auto;
+        object-fit: cover; /* Agar gambar mengisi seluruh area */
+        opacity: 0.7; /* Agar teks bisa lebih terlihat di atas gambar */
+      }
+
+      .background-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #ffffff; /* Warna teks putih */
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .content {
+        margin-bottom: 20px;
+      }
+
+      .link-list {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .link-list li {
+        margin-bottom: 10px;
+      }
+
+      img {
+        max-width: 100%; /* Responsif */
+        height: auto; /* Menjaga rasio aspek */
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h1>Welcome to My Eco-Friendly Web Page</h1>
+    </nav>
+
+    <!-- Container untuk gambar latar belakang agar lebih ringan dan hemat energi-->
+    <div class="image-container">
+      <img
+        src="https://www.forestcarbonpartnership.org/sites/default/files/styles/uploaded_image/public/2022-10/banner_What-is-REDD.jpg.webp?itok=FUD5b9RK"
+        alt="Background Image"
+        class="low-res-background"
+      />
+
+      <div class="background-text">Let's be a hero to our green planet</div>
+    </div>
+
+    <main>
+      <section class="content">
+        <h2>About Me</h2>
+        <!-- Gambar yang dioptimalkan untuk web -->
+        <img src="https://via.placeholder.com/600x400" alt="Optimized Image" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+          vitae velit ex.
+        </p>
+      </section>
+      <section class="content">
+        <h2>My Interests</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+          vitae velit ex.
+        </p>
+        <ul class="link-list">
+          <li><a href="#" style="color: #57a8ff">Interest 1</a></li>
+          <li><a href="#" style="color: #57a8ff">Interest 2</a></li>
+          <li><a href="#" style="color: #57a8ff">Interest 3</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 My Eco-Friendly Web Page</p>
+    </footer>
+  </body>
+</html>
